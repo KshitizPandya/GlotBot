@@ -3,6 +3,7 @@ from random import choice
 from flask import Flask, request
 import os
 import openai
+from dotenv import load_dotenv
 
 load_dotenv()
 open.api_key = os.getenv("OPENAI_API_KEY")
